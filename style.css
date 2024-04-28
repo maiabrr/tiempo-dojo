@@ -1,0 +1,97 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav, .cities, .content, .dayTemp, .cookie, .showTemp, .temperature{
+    display: flex;
+}
+.nav{
+    background-color: #9fc5f8;
+    color: white;
+    justify-content: space-between;
+}
+h1{
+    padding: 10px;
+    margin-left: 150px;
+}
+.cities{
+    gap: 100px;
+    align-items: center;
+    margin-right: 200px;
+}
+.content{
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-left: 160px;
+    margin-right: 200px;
+}
+.showTemp{
+    gap: 20px;
+}
+.line{
+    width: 75%;
+    height: 3px;
+    background-color: #000; 
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.dayTemp{
+    gap: 50px;
+    margin-left: 140px;
+    position: relative;
+}
+.today, .tomorrow, .friday, .saturday{
+    background-color: #eeeeee;
+    width: 220px;
+    align-content: center;
+}
+.dayimg{
+    border-radius: 50%;
+    width: 180px;
+    margin-left: 20px;
+}
+.temperature{
+    gap: 30px;
+    justify-content: center;
+}
+.text{
+    margin-left: 70px;
+}
+.day{
+    margin-left: 60px;
+}
+.temp1{
+    color: red;
+    font-weight: bold;
+}
+.temp2{
+    color: #2b78e4;
+    font-weight: bold;
+}
+.cookie{
+    justify-content: center;
+    gap: 40px;
+    border: #000 solid;
+    width: 1025px;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+#cookie{
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.btn{
+    width: 90px;
+    height: 30px;
+    margin-top: 50px;
+    margin-right: 30px;
+    background-color: #9fc5f8;
+}
+#temp{
+    width: 50px;
+    height: 30px;
+    margin-top: 11px;
+}
